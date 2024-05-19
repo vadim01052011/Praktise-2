@@ -1,0 +1,27 @@
+* {
+    font-family: "Jost", sans-serif;
+}
+
+.numbers-section {
+    background-color: #F4F0EC;
+}
+
+.join-section {
+    background-color: #292F36;
+}
+
+.votes-section {
+    background-color: #F4F0EC;
+}
+
+.home-button {
+    background-color: #292F36;
+}
+
+.create-button {
+    background-color: #292F36; 
+}
+
+h1, h2, h3, .logo-text, .header-link {
+    color: #292F36;
+}
