@@ -41,6 +41,11 @@ ul {
     list-style: none;
 }
 
+.header {
+    padding-top: 43px;
+    padding-bottom: 43px;
+}
+
 .logo-text {
     color: #292F36;
 font-family: "DM Serif Display";
