@@ -33,6 +33,13 @@ h1, h2 , h3, a, button, p {
   padding: 0;
 }
 
+/* .container {
+    padding-left: 0 15px;
+    padding-right: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
 a {
     text-decoration: none;
 }
@@ -127,6 +134,12 @@ border: none;
 padding: 26px 48px;
 margin-top: 47px;
 }
+
+/* .home-add {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+} */
 
 
 .hero-section {
@@ -256,6 +269,8 @@ font-weight: 600;
 line-height: 125%; /* 22.5px */
 letter-spacing: 0.36px;
 padding: 26px 31px;
+display: block;
+border: none;
 }
 
 /* .create-img {
@@ -514,6 +529,16 @@ letter-spacing: 0.22px;
     text-align: center;
     flex-direction: column;
     margin-left: 76px;
+}
+
+.numbers-text {
+    color: #4D5053;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 33px */
+letter-spacing: 0.22px;
+margin-top: 16px;
 }
 
 
