@@ -52,10 +52,14 @@ p {
 
 a {
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -84,6 +88,7 @@ ul {
 .box {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .header-log {
@@ -97,6 +102,7 @@ ul {
   gap: 25px;
   margin-left: 399px;
   margin-right: 31px;
+  align-items: center;
 }
 
 .home-section {
@@ -159,6 +165,7 @@ ul {
 .hero-list {
   display: flex;
   justify-content: center;
+  gap: 42px;
 }
 
 .hero-item {
@@ -281,6 +288,13 @@ ul {
   background: #292f36;
 
   box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+}
+
+.create-img {
+    border: none;
+    border-top-right-radius: 335px;
+    border-bottom-left-radius: 130px;
+    margin-left: 75px;
 }
 
 /* .create-img {
@@ -434,8 +448,7 @@ ul {
 .follow-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
-  justify-content: center;
+  gap: 72px;
 }
 
 .follow-img1 {
@@ -709,6 +722,8 @@ ul {
   padding-bottom: 80px;
   padding-right: 375px;
   padding-left: 375px;
+  display: flex;
+  justify-content: center;
 }
 
 .join-title {
@@ -745,7 +760,7 @@ ul {
   padding: 26px 37px;
   border-radius: 18px;
   background: #cda274;
-  margin-top: 58px;
+  margin-top: 32px;
   box-shadow: 0px 10px 20px 0px #1f2022;
 }
 
@@ -780,6 +795,7 @@ ul {
 .vax {
   display: flex;
   justify-content: center;
+  gap: 101px;
 }
 
 .first {
@@ -799,6 +815,8 @@ ul {
 
 .address {
   display: flex;
+  gap: 101px;
+  margin-bottom: 174px;
 }
 
 .footer-title1 {
