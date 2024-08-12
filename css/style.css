@@ -346,6 +346,11 @@ ul {
   margin-bottom: 25px;
 }
 
+.votes-img {
+  border: none;
+  border-radius: 100%;
+}
+
 .votes-add {
   display: flex;
   flex-direction: column;
@@ -381,6 +386,9 @@ ul {
   line-height: 150%; /* 33px */
   letter-spacing: 0.22px;
 }
+
+
+
 
 .row-section {
   padding-top: 150px;
