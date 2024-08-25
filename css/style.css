@@ -294,7 +294,6 @@ ul {
     border: none;
     border-top-right-radius: 335px;
     border-bottom-left-radius: 130px;
-    margin-left: 75px;
 }
 
 /* .create-img {
@@ -416,6 +415,10 @@ ul {
   align-items: center;
 }
 
+
+
+
+
 .follow-section {
   padding-top: 1px;
   padding-bottom: 150px;
@@ -448,7 +451,17 @@ ul {
 .follow-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 72px;
+}
+
+.follow-real {
+  gap: 104px;
+  display: flex;
+}
+
+.follow-gap {
+  margin-top: 56px;
+  display: flex;
+  gap: 99px;
 }
 
 .follow-img1 {
@@ -515,6 +528,7 @@ ul {
   font-weight: 400;
   line-height: 150%; /* 33px */
   letter-spacing: 0.22px;
+  width: 217px;
 }
 
 .follow-button {
